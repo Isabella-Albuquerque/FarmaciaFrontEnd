@@ -1,11 +1,9 @@
 import React from 'react';
 import './Home.css';
 
-
 function Home() {
     return (
-        <>
-        <div className="bg-green-200 flex justify-center">
+        <div className="bg-green-200 flex justify-center background-image">
           <div className='container grid grid-cols-2 text-black'>
             <div className="flex flex-col gap-4 items-center justify-center py-4">
               <h2 className='text-5xl font-bold'>Bem vindo!!</h2>
@@ -22,8 +20,6 @@ function Home() {
             </div>
           </div>
         </div>
-      
-      </>
     );
 }
 
